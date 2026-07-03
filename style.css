@@ -201,3 +201,11 @@ section h2{
 .tech-card:hover{
     transform:translateY(-5px);
 }
+.project-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+    display: block;
+}
