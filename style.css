@@ -209,3 +209,75 @@ section h2{
     margin: 15px 0;
     display: block;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f8f9fb;
+    color: #333;
+}
+
+header {
+    background: #0f172a;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#hero {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hero-buttons .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background: #2563eb;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.tech-stack {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.project-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
