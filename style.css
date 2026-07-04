@@ -257,3 +257,50 @@ section h2{
     font-size:30px;
 }
 }
+section{
+    padding: 80px 20px;
+}
+
+/* =========================
+   FINAL PREMIUM SAAS POLISH
+========================= */
+
+/* Better section breathing space (safe override) */
+section{
+    padding: 90px 20px;
+}
+
+/* Smooth card feel upgrade */
+.project-card{
+    border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+/* Slightly better hover feel */
+.project-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.12);
+}
+
+/* Make headings feel more premium */
+section h2{
+    letter-spacing: -0.5px;
+}
+
+/* Button glow upgrade */
+.btn{
+    box-shadow: 0 4px 12px rgba(37,99,235,0.2);
+}
+
+.btn:hover{
+    box-shadow: 0 10px 25px rgba(37,99,235,0.35);
+}
+
+/* Tech cards polish */
+.tech-card{
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* Soft background improvement for whole site */
+body{
+    background: linear-gradient(to bottom, #f5f7fb, #ffffff);
+}
