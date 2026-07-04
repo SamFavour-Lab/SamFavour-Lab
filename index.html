@@ -128,145 +128,99 @@
     </div>
 
 </section>
+
     
-
 <section id="projects">
-
 
     <h2>Featured Projects (AI Automation Case Studies)</h2>
 
-    <!-- PROJECT 1 -->
-    <div class="project">
+    <div class="projects-container">
 
-        <h3>🤖 AI Customer Support Ticket Automation</h3>
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+            <h3>🤖 AI Customer Support Ticket Automation</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-customer-support-ticket-automation/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-        <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-customer-support-ticket-automation/main/assets/screenshots/workflow-overview.png" alt="AI Customer Support Ticket Automation Workflow" class="project-image">
-       
-        <p><strong>Problem:</strong> Companies receive large volumes of customer emails, making it difficult to manually categorize, prioritize, and respond quickly.</p>
+            <p><strong>Problem:</strong> Companies receive large volumes of customer emails, making it difficult to manually categorize, prioritize, and respond quickly.</p>
+            <p><strong>Solution:</strong> Built an AI-powered system that processes Gmail messages, analyzes them with an AI Agent, and creates structured support tickets in Airtable.</p>
+            <p><strong>Workflow:</strong> Gmail Trigger → AI Agent (Groq) → Structured Output Parser → Airtable → Gmail Response</p>
+            <p><strong>Business Impact:</strong> Faster response time, reduced manual workload, improved customer satisfaction.</p>
+        </div>
 
-        <p><strong>Solution:</strong> Built an AI-powered system that processes Gmail messages, analyzes them with an AI Agent, creates structured support tickets in Airtable, and sends instant responses.</p>
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+            <h3>💰 Unpaid Tuition Reminder Automation</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/automated-tuition-reminder-system/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-        <p><strong>Workflow:</strong> Gmail Trigger → Gmail Get a Message → AI Agent (Groq) → Structured Output Parser → Airtable (Create Ticket) → Conditional Logic → Gmail Response</p>
+            <p><strong>Problem:</strong> Manual tracking of unpaid tuition causes missed payments.</p>
+            <p><strong>Solution:</strong> Automated system that detects overdue students and sends reminders.</p>
+            <p><strong>Workflow:</strong> Schedule Trigger → Airtable Search → Gmail Notification</p>
+            <p><strong>Business Impact:</strong> Improves cash flow and reduces manual follow-ups.</p>
+        </div>
 
-        <p><strong>Business Impact:</strong> Faster response time, reduced manual workload, improved customer satisfaction, scalable support system.</p>
-  
-    </div>
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <h3>📊 Daily Sales Reporting Automation</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/daily-sales-reporting-automation/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-    <!-- PROJECT 2 -->
-    <div class="project">
+            <p><strong>Problem:</strong> Manual sales reporting is time-consuming.</p>
+            <p><strong>Solution:</strong> Automated reporting using Google Sheets + JavaScript + Gmail.</p>
+            <p><strong>Workflow:</strong> Google Sheets → JavaScript → Gmail Report</p>
+            <p><strong>Business Impact:</strong> Saves time and improves decision-making.</p>
+        </div>
 
-       <h3>💰 Unpaid Tuition Reminder Automation</h3>
+        <!-- PROJECT 4 -->
+        <div class="project-card">
+            <h3>📢 AI Social Media Content Engine</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-social-media-content-engine/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-        <img src="https://raw.githubusercontent.com/SamFavour-Lab/automated-tuition-reminder-system/main/assets/screenshots/workflow-overview.png" alt="Tuition Reminder Workflow" class="project-image">
+            <p><strong>Problem:</strong> Content teams struggle with consistent posting.</p>
+            <p><strong>Solution:</strong> AI generates and distributes social media content automatically.</p>
+            <p><strong>Workflow:</strong> RSS → Groq AI → Google Sheets → Slack</p>
+            <p><strong>Business Impact:</strong> Faster content creation and publishing.</p>
+        </div>
 
-        <p><strong>Problem:</strong> Manual tracking of unpaid tuition causes missed payments and delayed follow-ups.</p>
+        <!-- PROJECT 5 -->
+        <div class="project-card">
+            <h3>🤖 AI Sales Assistant Chatbot</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-sales-assistant-chatbot/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-        <p><strong>Solution:</strong> Scheduled system that detects overdue students and sends automated email reminders.</p>
+            <p><strong>Problem:</strong> Businesses need 24/7 customer engagement.</p>
+            <p><strong>Solution:</strong> AI chatbot with CRM logging and scheduling.</p>
+            <p><strong>Workflow:</strong> AI Agent → Google Sheets → Calendar Booking</p>
+            <p><strong>Business Impact:</strong> Improves lead capture and sales efficiency.</p>
+        </div>
 
-        <p><strong>Workflow:</strong> Schedule Trigger → Airtable Search → Filter → Gmail Notification</p>
+        <!-- PROJECT 6 -->
+        <div class="project-card">
+            <h3>📈 AI Lead Qualification & CRM Automation</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-lead-qualification-crm-automation/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-        <p><strong>Business Impact:</strong> Improves cash flow, reduces manual follow-up, ensures timely payments.</p>
+            <p><strong>Problem:</strong> Leads are hard to qualify and manage.</p>
+            <p><strong>Solution:</strong> AI scores and routes leads into CRM pipelines.</p>
+            <p><strong>Workflow:</strong> Airtable → Groq AI → JSON Parse → Router A/B/C</p>
 
-    </div>
+            <p><strong>Business Impact:</strong> Faster sales response and better lead organization.</p>
+        </div>
 
-    <!-- PROJECT 3 -->
-    <div class="project">
+        <!-- PROJECT 7 -->
+        <div class="project-card">
+            <h3>📩 AI Customer Service Auto Responder</h3>
+            <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-customer-service-auto-responder/main/assets/screenshots/workflow-overview.png" class="project-image">
 
-       <h3>📊 Daily Sales Reporting Automation</h3>
-
-        <img src="https://raw.githubusercontent.com/SamFavour-Lab/daily-sales-reporting-automation/main/assets/screenshots/workflow-overview.png" alt="Daily Sales Reporting Workflow" class="project-image">
-
-        <p><strong>Problem:</strong> Businesses waste time manually compiling daily sales reports from spreadsheets.</p>
-
-        <p><strong>Solution:</strong> Built a system that extracts sales data from Google Sheets, processes it using JavaScript, calculates key metrics, and sends automated email reports.</p>
-
-        <p><strong>Workflow:</strong> Manual Trigger → Google Sheets → JavaScript Processing → Gmail Report Delivery</p>
-
-        <p><strong>Business Impact:</strong> Saves time, improves decision-making, reduces human error, and provides instant business insights.</p>
-        
-    </div>
-
-    <!-- PROJECT 4 -->
-    <div class="project">
-
-       <h3>📢 AI Social Media Content Engine</h3>
-
-        <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-social-media-content-engine/main/assets/screenshots/workflow-overview.png" alt="AI Social Media Content Engine Workflow" class="project-image">
-
-        <p><strong>Problem:</strong> Content teams struggle to consistently create and publish social media posts from new articles and blog updates.</p>
-
-        <p><strong>Solution:</strong> Built an AI system that monitors RSS feeds, extracts articles, generates social media posts using LLMs, and distributes content to Slack and Google Sheets.</p>
-
-        <p><strong>Workflow:</strong> RSS Trigger → HTTP Request → JavaScript Parsing → Groq AI → Content Formatting → Google Sheets → Slack Notification</p>
-
-        <p><strong>Business Impact:</strong> Automates content creation, increases publishing speed, and improves marketing consistency.</p>
-
-    </div>
-
-    <!-- PROJECT 5 -->
-    <div class="project">
-
-     <h3>🤖 AI Sales Assistant Chatbot</h3>
-
-       <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-sales-assistant-chatbot/main/assets/screenshots/workflow-overview.png" alt="AI Sales Assistant Chatbot Workflow" class="project-image">
-
-        <p><strong>Problem:</strong> Businesses need 24/7 customer engagement and lead capture but cannot always rely on human agents.</p>
-
-        <p><strong>Solution:</strong> Built an AI chatbot with memory, CRM logging, and scheduling capabilities that handles customer conversations and books appointments automatically.</p>
-
-        <p><strong>Workflow:</strong> Chat Trigger → AI Agent → Memory System → Google Sheets Logging → Code Tool → Google Calendar Booking</p>
-
-        <p><strong>Business Impact:</strong> Improves customer engagement, captures leads automatically, and allows 24/7 sales support.</p>  
+            <p><strong>Problem:</strong> Slow customer email responses.</p>
+            <p><strong>Solution:</strong> AI generates instant replies using automation.</p>
+            <p><strong>Workflow:</strong> LLM Chain (Groq) → Airtable → Gmail Send</p>
+            <p><strong>Business Impact:</strong> Faster response and improved customer satisfaction.</p>
+        </div>
 
     </div>
 
-    <!-- PROJECT 6 -->
-    <div class="project">
+</section>    
 
-      <h3>📈 AI Lead Qualification & CRM Automation</h3>
-
-        <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-lead-qualification-crm-automation/main/assets/screenshots/workflow-overview.png" 
-        alt="AI Lead Qualification CRM Workflow" class="project-image">
-
-        <p><strong>Problem:</strong> Businesses receive large volumes of inbound leads but struggle to qualify, prioritize, and route them efficiently.</p>
-
-        <p><strong>Solution:</strong> An AI-powered system that analyzes incoming lead data, classifies intent, and automatically routes leads into CRM pipelines with notifications.</p>
-
-        <p><strong>Workflow:</strong> Airtable Trigger → Groq AI (Create JSON Chat Completion for Lead Scoring) → JSON Parse → Router</p>
-        
-        <ul>
-            <li><strong>Route A (Hot Leads):</strong> Airtable Update Record → Gmail Notification → Airtable Status Update</li>
- 
-            <li><strong>Route B (Warm Leads):</strong> Airtable Update Record → Gmail Notification → Airtable Follow-up Stage Update</li>
- 
-            <li><strong>Route C (Cold Leads):</strong> Airtable Update Record only (CRM tagging & segmentation)</li>
-        </ul>
-        
-        <p><strong>Business Impact:</strong> Improved lead qualification accuracy, faster sales response time, and better CRM organization for sales teams.</p>
-
-    </div>
-
-    <!-- PROJECT 7 -->
-    <div class="project">
-
-       <h3>📩 AI Customer Service Auto Responder</h3>
-
-        <img src="https://raw.githubusercontent.com/SamFavour-Lab/ai-customer-service-auto-responder/main/assets/screenshots/workflow-overview.png" alt="AI Customer Service Auto Responder Workflow" class="project-image">
-
-        <p><strong>Problem:</strong> Customers expect fast replies, but manual responses are slow.</p>
-
-        <p><strong>Solution:</strong> AI generates instant email replies using Gmail automation.</p>
-
-        <p><strong>Workflow:</strong> Gmail Trigger → Basic LLM Chain (Groq Chat Model) → Airtable (Create Record) → Gmail Send</p>
-
-        <p><strong>Business Impact:</strong> Faster response time, improved customer satisfaction, reduced workload.</p>
-        
-    </div>
 
 
     
-</section>
-
 <section id="contact">
 
     <h2>Let's Connect</h2>
